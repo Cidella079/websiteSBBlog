@@ -1,0 +1,110 @@
+table {
+	font-family : Arial, Helvetica, sans-serif;
+	font-size : 100%;
+  font-weight: bold;
+  background-color: white;
+  padding: 20px;
+}
+ * {
+  padding: 0;
+  margin: 0;
+}
+a {
+  font-family: 'Libre Baskerville', serif;
+  font-size: 1.1em;
+  line-height: 1.3em;
+  text-decoration: none;
+  padding: 5px 15px 5px 15px;
+
+}
+a:hover {
+  color: darkblue;
+}
+header nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+header nav a {
+  padding: 10px;
+  color: blue;
+  text-decoration: none;
+}
+header nav a:hover {
+  color: darkblue;
+}
+.logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.logo img:hover {
+  box-shadow: 0 10px 0 blue;
+}
+nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+nav a {
+  text-decoration: blue;
+  color:blue;
+  padding: 10px;
+}
+
+nav a:hover {
+  color: darkblue;
+}
+.container {
+  max-width: 900px;
+  margin: auto;
+}
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+h1, h2, h3, h4, h5 {
+  padding: 5px 20px 5px 20px;
+}
+ul {
+  display: flex;
+  justify-content: center;
+  align-items:flex-start;
+  flex-direction:column;
+  padding: 0px 10px;
+}
+section {
+  padding: 20px;
+}
+main {
+  float: left;
+  width: 70%;
+}
+main p {
+  font-size: 1.1rem;
+  line-height: 1.6rem;
+  padding: 0px 20px 0px 20px;
+}
+aside {
+  float: right;
+  width: 25%;
+  display: block;
+  min-height: 300px;
+}
+aside p {
+  font-size: 1.1rem;
+  line-height: 1.6rem;
+  padding: 20px;
+}
+aside ul li {
+  font-size: 1.1rem;
+  line-height: 1.6rem;
+  list-style: none;
+}
+footer {
+  display: inline-block;
+  width: 100%;
+}
+        
